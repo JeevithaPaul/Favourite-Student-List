@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# ⭐ Favourite Student List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and interactive **Favourite Student List** application built using **React JS**.
 
-## Available Scripts
+This project demonstrates **React Router, Context API, useContext, useState, conditional rendering, reusable components, and array methods**. Tailwind CSS is used for styling.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application allows users to:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- View a list of students
+- Add students to their favourite list
+- Prevent duplicate students
+- View favourite students on a separate page
+- Remove students from favourites
+- Navigate between pages without refreshing
 
-### `npm test`
+The project uses **React Context API** to manage favourite students globally.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 👨‍🎓 Student List
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Displays students dynamically
+- Shows student name and roll number
+- Add students to favourites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ❤️ Favourite Students
 
-### `npm run eject`
+- View all favourite students
+- Remove students from favourites
+- Prevent duplicate favourites
+- Shows an empty message when there are no favourites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🔄 Navigation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Student List page
+- Favourite Students page
+- Navigation using React Router and `Link`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🌐 Global State Management
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Uses:
 
-## Learn More
+- `createContext()`
+- `useContext()`
+- `useState()`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+to manage favourite students globally.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🎨 Styling
 
-### Code Splitting
+- Tailwind CSS
+- Responsive layout
+- Clean and simple UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🛠️ Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React JS
+- JavaScript
+- React Router DOM
+- Context API
+- Tailwind CSS
+- HTML
+- Git & GitHub
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📂 Project Structure
 
-### Advanced Configuration
+```text
+favourite-student-list
+│
+├── public
+│
+├── src
+│   ├── Components
+│   │   └── StudentItem.jsx
+│   │
+│   ├── Context
+│   │   └── StudentContext.js
+│   │
+│   ├── Pages
+│   │   ├── StudentList.js
+│   │   └── FavouriteStudents.js
+│   │
+│   ├── App.js
+│   ├── App.css
+│   ├── index.css
+│   └── index.js
+│
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+👩‍💻 Author
+Jeevitha Paul
+GitHub: https://github.com/JeevithaPaul
+live Demo : https://favourite-student-list-ecru.vercel.app/
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
