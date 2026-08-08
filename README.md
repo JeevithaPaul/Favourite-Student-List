@@ -100,9 +100,15 @@ favourite-student-list
 ├── postcss.config.js
 └── README.md
 
-👩‍💻 Author
-Jeevitha Paul
-GitHub: https://github.com/JeevithaPaul
-live Demo : https://favourite-student-list-ecru.vercel.app/
+
+
+
+
+
+
+
+
+
+
 
 
