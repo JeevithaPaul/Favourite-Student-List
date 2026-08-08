@@ -99,5 +99,3 @@ favourite-student-list
 ├── tailwind.config.js
 ├── postcss.config.js
 └── README.md
-
-
